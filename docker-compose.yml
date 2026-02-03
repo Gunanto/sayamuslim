@@ -1,0 +1,5 @@
+services:
+  web:
+    image: ghcr.io/gunanto/muslim:latest
+    ports:
+      - "8080:80"
